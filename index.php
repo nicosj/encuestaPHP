@@ -1,12 +1,10 @@
 <?php
 
 date_default_timezone_set("utc");
-    require_once "config/define.php";
 	require_once "config/config.php";
 	require_once "routes/routes.php";
 	require_once "config/database.php";
 	require_once "controllers/encuesta.php";
-	require_once "controllers/installl.php";
 	require_once "controllers/resultado.php";
 	require_once "controllers/excel.php";
 

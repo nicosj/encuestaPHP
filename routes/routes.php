@@ -1,6 +1,7 @@
 <?php
-	
-	function cargarControlador($controlador){
+
+
+function cargarControlador($controlador){
 		
 		$nombreControlador = ucwords($controlador)."Controller";
 		$archivoControlador = 'controllers/'.ucwords($controlador).'.php';
@@ -15,7 +16,7 @@
 		return $control;
 	}
 	
-	function cargarAccion($controller, $accion, $id = null){
+function cargarAccion($controller, $accion, $id = null){
 
         if(isset($accion) && method_exists($controller, $accion)){
 
@@ -31,4 +32,5 @@
 
 
     }
+
 ?>

@@ -1,5 +1,6 @@
 <?php
-	
+
+
 	class encuestaController {
 		
 		public function __construct(){
